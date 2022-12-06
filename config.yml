@@ -1,19 +1,8 @@
 rss_groups:
-  技术: &tech
-    美团技术团队: https://tech.meituan.com/feed/
-  博客: &blog
-    月光博客:
-      url: https://www.williamlong.info/rss.xml
-      fold: true
-    阮一峰的网络日志: https://www.ruanyifeng.com/blog/atom.xml
-  新闻: &new
-    FT中文网: http://www.ftchinese.com/rss/news
-  综合: &other
-    少数派: https://sspai.com/feed
+  主机: &vps
+    hostevaluate: https://bbs.hostevaluate.com/category/7.rss
+ 
 
 chat_ids:
-  383054885:
-    <<: *tech
-    <<: *blog
-    <<: *new
-    <<: *other
+  -1001758014048:
+    <<: *vps
